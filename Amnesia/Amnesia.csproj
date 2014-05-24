@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Clases\Buttons.cs" />
     <Compile Include="Clases\Registro.cs" />
     <Compile Include="Core\ChangeColor.cs" />
     <Compile Include="Core\DBLayer.cs" />

@@ -34,9 +34,9 @@ namespace Amnesia
 
         private void btnNewTask_Click(object sender, RoutedEventArgs e)
         {
-            //TaskWindow task = new TaskWindow();
+            TaskWindow task = new TaskWindow();
 
-            //task.Show();
+            task.Show();
 
             
         }

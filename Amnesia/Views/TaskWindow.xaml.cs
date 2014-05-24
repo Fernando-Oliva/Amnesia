@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Amnesia.Clases;
 
 namespace Amnesia.Views
 {
@@ -21,6 +22,25 @@ namespace Amnesia.Views
         public TaskWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnCompleted_Click(object sender, RoutedEventArgs e)
+        {
+            if (Buttons.Completed)
+            {
+                Buttons.Completed = true;
+            }
+            
+        }
+
+        private void btnAproved_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnTest_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
