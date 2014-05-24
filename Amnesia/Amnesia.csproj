@@ -56,6 +56,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Clases\Registro.cs" />
+    <Compile Include="Core\ChangeColor.cs" />
     <Compile Include="Core\DBLayer.cs" />
     <Compile Include="Views\TaskWindow.xaml.cs">
       <DependentUpon>TaskWindow.xaml</DependentUpon>
